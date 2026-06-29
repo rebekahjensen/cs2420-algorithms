@@ -1,0 +1,1124 @@
+Copyright (C) 2002 by Sam Williams.
+Free As in Freedom: Richard Stallman's Crusade for Free Software.
+By Sam Williams
+
+Available on the web at: http://www.faifzilla.org/
+
+Produced under the Free Documentation License
+
+Table of Contents
+
+Chapter 1 For Want of a Printer
+Chapter 2 2001: A Hacker's Odyssey
+Chapter 3 A Portrait of the Hacker as a Young Man
+Chapter 4 Impeach God
+Chapter 5 Small Puddle of Freedom
+Chapter 6 The Emacs Commune
+Chapter 7 A Stark Moral Choice
+Chapter 8 St. Ignucius
+Chapter 9 The GNU General Public License
+Chapter 10 GNU/Linux
+Chapter 11 Open Source
+Chapter 12 A Brief Journey Through Hacker Hell
+Chapter 13 Continuing the Fight
+Chapter 14 Epilogue:
+Chapter 15 Appendix A : Terminology
+Chapter 16 Appendix B Hack, Hackers, and Hacking
+Chapter 17 Appendix C GNU Free Documentation License (GFDL)
+
+
+
+Preface
+
+The work of Richard M. Stallman literally speaks for
+itself. From the documented source code to the
+published papers to the recorded speeches, few people
+have expressed as much willingness to lay their
+thoughts and their work on the line.
+
+Such openness-if one can pardon a momentary un-Stallman
+adjective-is refreshing. After all, we live in a
+society that treats information, especially personal
+information, as a valuable commodity. The question
+quickly arises. Why would anybody want to part with so
+much information and yet appear to demand nothing in return?
+
+As we shall see in later chapters, Stallman does not
+part with his words or his work altruistically. Every
+program, speech, and on-the-record bon mot comes with a
+price, albeit not the kind of price most people are
+used to paying.
+
+I bring this up not as a warning, but as an admission.
+As a person who has spent the last year digging up
+facts on Stallman's personal history, it's more than a
+little intimidating going up against the Stallman
+oeuvre. "Never pick a fight with a man who buys his ink
+by the barrel," goes the old Mark Twain adage. In the
+case of Stallman, never attempt the definitive
+biography of a man who trusts his every thought to the
+public record.
+
+For the readers who have decided to trust a few hours
+of their time to exploring this book, I can confidently
+state that there are facts and quotes in here that one
+won't find in any Slashdot story or Google search.
+Gaining access to these facts involves paying a price,
+however. In the case of the book version, you can pay
+for these facts the traditional manner, i.e., by
+purchasing the book. In the case of the electronic
+versions, you can pay for these facts in the free
+software manner. Thanks to the folks at O'Reilly &
+Associates, this book is being distributed under the
+GNU Free Documentation License, meaning you can help to
+improve the work or create a personalized version and
+release that version under the same license.
+
+If you are reading an electronic version and prefer to
+accept the latter payment option, that is, if you want
+to improve or expand this book for future readers, I
+welcome your input. Starting in June, 2002, I will be
+publishing a bare bones HTML version of the book on the
+web site, http://www.faifzilla.org. My aim is to update
+it regularly and expand the Free as in Freedom story as
+events warrant. If you choose to take the latter
+course, please review Appendix C of this book. It
+provides a copy of your rights under the GNU Free
+Documentation License.
+
+For those who just plan to sit back and read, online or
+elsewhere, I consider your attention an equally
+valuable form of payment. Don't be surprised, though,
+if you, too, find yourself looking for other ways to
+reward the good will that made this work possible.
+
+One final note: this is a work of journalism, but it is
+also a work of technical documentation. In the process
+of writing and editing this book, the editors and I
+have weighed the comments and factual input of various
+participants in the story, including Richard Stallman
+himself. We realize there are many technical details in
+this story that may benefit from additional or refined
+information. As this book is released under the GFDL,
+we are accepting patches just like we would with any
+free software program. Accepted changes will be posted
+electronically and will eventually be incorporated into
+future printed versions of this work. If you would like
+to contribute to the further improvement of this book,
+you can reach me at sam@inow.com. Comments and
+Questions Please address comments and questions
+concerning this book to the publisher: O'Reilly &
+Associates, Inc. 1005 Gravenstein Highway North
+Sebastopol, CA 95472 (800) 998-9938 (in the United
+States or Canada) (707) 829-0515 (international/local)
+(707) 829-0104 (fax) There is a web page for this book,
+which lists errata, examples, or any additional
+information. The site also includes a link to a forum
+where you can discuss the book with the author and
+other readers. You can access this site at:
+http://www.oreilly.com/catalog/freedom/ To comment or
+ask technical questions about this book, send email to:
+bookquestions@oreilly.com For more information about
+books, conferences, Resource Centers, and the O'Reilly
+Network, see the O'Reilly web site at:
+http://www.oreilly.com Acknowledgments Special thanks
+to Henning Gutmann for sticking by this book. Special
+thanks to Aaron Oas for suggesting the idea to Tracy in
+the first place. Thanks to Laurie Petrycki, Jeffrey
+Holcomb, and all the others at O'Reilly & Associates.
+Thanks to Tim O'Reilly for backing this book. Thanks to
+all the first-draft reviewers: Bruce Perens, Eric
+Raymond, Eric Allman, Jon Orwant, Julie and Gerald Jay
+Sussman, Hal Abelson, and Guy Steele. I hope you enjoy
+this typo-free version. Thanks to Alice Lippman for the
+interviews, cookies, and photographs. Thanks to my
+family, Steve, Jane, Tish, and Dave. And finally, last
+but not least: thanks to Richard Stallman for having
+the guts and endurance to "show us the code."
+
+Sam Williams
+
+For Want of a Printer
+
+I fear the Greeks. Even when they bring gifts.
+---Virgil The Aeneid
+
+The new printer was jammed, again.
+
+Richard M. Stallman, a staff software programmer at the
+Massachusetts Institute of Technology's Artificial
+Intelligence Laboratory (AI Lab), discovered the
+malfunction the hard way. An hour after sending off a
+50-page file to the office laser printer, Stallman, 27,
+broke off a productive work session to retrieve his
+documents. Upon arrival, he found only four pages in
+the printer's tray. To make matters even more
+frustrating, the four pages belonged to another user,
+meaning that Stallman's print job and the unfinished
+portion of somebody else's print job were still trapped
+somewhere within the electrical plumbing of the lab's
+computer network.
+
+Waiting for machines is an occupational hazard when
+you're a software programmer, so Stallman took his
+frustration with a grain of salt. Still, the difference
+between waiting for a machine and waiting on a machine
+is a sizable one. It wasn't the first time he'd been
+forced to stand over the printer, watching pages print
+out one by one. As a person who spent the bulk of his
+days and nights improving the efficiency of machines
+and the software programs that controlled them,
+Stallman felt a natural urge to open up the machine,
+look at the guts, and seek out the root of the problem.
+
+Unfortunately, Stallman's skills as a computer
+programmer did not extend to the mechanical-engineering
+realm. As freshly printed documents poured out of the
+machine, Stallman had a chance to reflect on other ways
+to circumvent the printing jam problem.
+
+How long ago had it been that the staff members at the
+AI Lab had welcomed the new printer with open arms?
+Stallman wondered. The machine had been a donation from
+the Xerox Corporation. A cutting edge prototype, it was
+a modified version of the popular Xerox photocopier.
+Only instead of making copies, it relied on software
+data piped in over a computer network to turn that data
+into professional-looking documents. Created by
+engineers at the world-famous Xerox Palo Alto Research
+Facility, it was, quite simply, an early taste of the
+desktop-printing revolution that would seize the rest
+of the computing industry by the end of the decade.
+
+Driven by an instinctual urge to play with the best new
+equipment, programmers at the AI Lab promptly
+integrated the new machine into the lab's sophisticated
+computing infrastructure. The results had been
+immediately pleasing. Unlike the lab's old laser
+printer, the new Xerox machine was fast. Pages came
+flying out at a rate of one per second, turning a
+20-minute print job into a 2-minute print job. The new
+machine was also more precise. Circles came out looking
+like circles, not ovals. Straight lines came out
+looking like straight lines, not low-amplitude sine waves.
+
+It was, for all intents and purposes, a gift too good
+to refuse.
+
+It wasn't until a few weeks after its arrival that the
+machine's flaws began to surface. Chief among the
+drawbacks was the machine's inherent susceptibility to
+paper jams. Engineering-minded programmers quickly
+understood the reason behind the flaw. As a
+photocopier, the machine generally required the direct
+oversight of a human operator. Figuring that these
+human operators would always be on hand to fix a paper
+jam, if it occurred, Xerox engineers had devoted their
+time and energies to eliminating other pesky problems.
+In engineering terms, user diligence was built into the system.
+
+In modifying the machine for printer use, Xerox
+engineers had changed the user-machine relationship in
+a subtle but profound way. Instead of making the
+machine subservient to an individual human operator,
+they made it subservient to an entire networked
+population of human operators. Instead of standing
+directly over the machine, a human user on one end of
+the network sent his print command through an extended
+bucket-brigade of machines, expecting the desired
+content to arrive at the targeted destination and in
+proper form. It wasn't until he finally went to check
+up on the final output that he realized how little of
+the desired content had made it through.
+
+Stallman himself had been of the first to identify the
+problem and the first to suggest a remedy. Years
+before, when the lab was still using its old printer,
+Stallman had solved a similar problem by opening up the
+software program that regulated the printer on the
+lab's PDP-11 machine. Stallman couldn't eliminate paper
+jams, but he could insert a software command that
+ordered the PDP-11 to check the printer periodically
+and report back to the PDP-10, the lab's central
+computer. To ensure that one user's negligence didn't
+bog down an entire line of print jobs, Stallman also
+inserted a software command that instructed the PDP-10
+to notify every user with a waiting print job that the
+printer was jammed. The notice was simple, something
+along the lines of "The printer is jammed, please fix
+it," and because it went out to the people with the
+most pressing need to fix the problem, chances were
+higher that the problem got fixed in due time.
+
+As fixes go, Stallman's was oblique but elegant. It
+didn't fix the mechanical side of the problem, but it
+did the next best thing by closing the information loop
+between user and machine. Thanks to a few additional
+lines of software code, AI Lab employees could
+eliminate the 10 or 15 minutes wasted each week in
+running back and forth to check on the printer. In
+programming terms, Stallman's fix took advantage of the
+amplified intelligence of the overall network.
+
+"If you got that message, you couldn't assume somebody
+else would fix it," says Stallman, recalling the logic.
+"You had to go to the printer. A minute or two after
+the printer got in trouble, the two or three people who
+got messages arrive to fix the machine. Of those two or
+three people, one of them, at least, would usually know
+how to fix the problem."
+
+Such clever fixes were a trademark of the AI Lab and
+its indigenous population of programmers. Indeed, the
+best programmers at the AI Lab disdained the term
+programmer, preferring the more slangy occupational
+title of hacker instead. The job title covered a host
+of activities-everything from creative mirth making to
+the improvement of existing software and computer
+systems. Implicit within the title, however, was the
+old-fashioned notion of Yankee ingenuity. To be a
+hacker, one had to accept the philosophy that writing a
+software program was only the beginning. Improving a
+program was the true test of a hacker's skills.For more on the term "hacker,"
+see Appendix B.
+
+Such a philosophy was a major reason why companies like
+Xerox made it a policy to donate their machines and
+software programs to places where hackers typically
+congregated. If hackers improved the software,
+companies could borrow back the improvements,
+incorporating them into update versions for the
+commercial marketplace. In corporate terms, hackers
+were a leveragable community asset, an auxiliary
+research-and-development division available at minimal cost.
+
+It was because of this give-and-take philosophy that
+when Stallman spotted the print-jam defect in the Xerox
+laser printer, he didn't panic. He simply looked for a
+way to update the old fix or " hack" for the new
+system. In the course of looking up the Xerox
+laser-printer software, however, Stallman made a
+troubling discovery. The printer didn't have any
+software, at least nothing Stallman or a fellow
+programmer could read. Until then, most companies had
+made it a form of courtesy to publish source-code
+files-readable text files that documented the
+individual software commands that told a machine what
+to do. Xerox, in this instance, had provided software
+files in precompiled, or binary, form. Programmers were
+free to open the files up if they wanted to, but unless
+they were an expert in deciphering an endless stream of
+ones and zeroes, the resulting text was pure gibberish.
+
+Although Stallman knew plenty about computers, he was
+not an expert in translating binary files. As a hacker,
+however, he had other resources at his disposal. The
+notion of information sharing was so central to the
+hacker culture that Stallman knew it was only a matter
+of time before some hacker in some university lab or
+corporate computer room proffered a version of the
+laser-printer source code with the desired source-code files.
+
+After the first few printer jams, Stallman comforted
+himself with the memory of a similar situation years
+before. The lab had needed a cross-network program to
+help the PDP-11 work more efficiently with the PDP-10.
+The lab's hackers were more than up to the task, but
+Stallman, a Harvard alumnus, recalled a similar program
+written by programmers at the Harvard computer-science
+department. The Harvard computer lab used the same
+model computer, the PDP-10, albeit with a different
+operating system. The Harvard computer lab also had a
+policy requiring that all programs installed on the
+PDP-10 had to come with published source-code files.
+
+Taking advantage of his access to the Harvard computer
+lab, Stallman dropped in, made a copy of the
+cross-network source code, and brought it back to the
+AI Lab. He then rewrote the source code to make it more
+suitable for the AI Lab's operating system. With no
+muss and little fuss, the AI Lab shored up a major gap
+in its software infrastructure. Stallman even added a
+few features not found in the original Harvard program,
+making the program even more useful. "We wound up using
+it for several years," Stallman says.
+
+From the perspective of a 1970s-era programmer, the
+transaction was the software equivalent of a neighbor
+stopping by to borrow a power tool or a cup of sugar
+from a neighbor. The only difference was that in
+borrowing a copy of the software for the AI Lab,
+Stallman had done nothing to deprive Harvard hackers
+the use of their original program. If anything, Harvard
+hackers gained in the process, because Stallman had
+introduced his own additional features to the program,
+features that hackers at Harvard were perfectly free to
+borrow in return. Although nobody at Harvard ever came
+over to borrow the program back, Stallman does recall a
+programmer at the private engineering firm, Bolt,
+Beranek & Newman, borrowing the program and adding a
+few additional features, which Stallman eventually
+reintegrated into the AI Lab's own source-code archive.
+
+"A program would develop the way a city develops," says
+Stallman, recalling the software infrastructure of the
+AI Lab. "Parts would get replaced and rebuilt. New
+things would get added on. But you could always look at
+a certain part and say, `Hmm, by the style, I see this
+part was written back in the early 60s and this part
+was written in the mid-1970s.'"
+
+Through this simple system of intellectual accretion,
+hackers at the AI Lab and other places built up robust
+creations. On the west coast, computer scientists at UC
+Berkeley, working in cooperation with a few low-level
+engineers at AT&T, had built up an entire operating
+system using this system. Dubbed Unix, a play on an
+older, more academically respectable operating system
+called Multics, the software system was available to
+any programmer willing to pay for the cost of copying
+the program onto a new magnetic tape and shipping it.
+Not every programmer participating in this culture
+described himself as a hacker, but most shared the
+sentiments of Richard M. Stallman. If a program or
+software fix was good enough to solve your problems, it
+was good enough to solve somebody else's problems. Why
+not share it out of a simple desire for good karma?
+
+The fact that Xerox had been unwilling to share its
+source-code files seemed a minor annoyance at first. In
+tracking down a copy of the source-code files, Stallman
+says he didn't even bother contacting Xerox. "They had
+already given us the laser printer," Stallman says.
+"Why should I bug them for more?"
+
+When the desired files failed to surface, however,
+Stallman began to grow suspicious. The year before,
+Stallman had experienced a blow up with a doctoral
+student at Carnegie Mellon University. The student,
+Brian Reid, was the author of a useful text-formatting
+program dubbed Scribe. One of the first programs that
+gave a user the power to define fonts and type styles
+when sending a document over a computer network, the
+program was an early harbinger of HTML, the lingua
+franca of the World Wide Web. In 1979, Reid made the
+decision to sell Scribe to a Pittsburgh-area software
+company called Unilogic. His graduate-student career
+ending, Reid says he simply was looking for a way to
+unload the program on a set of developers that would
+take pains to keep it from slipping into the public
+domain. To sweeten the deal, Reid also agreed to insert
+a set of time-dependent functions- "time bombs" in
+software-programmer parlance-that deactivated freely
+copied versions of the program after a 90-day
+expiration date. To avoid deactivation, users paid the
+software company, which then issued a code that defused
+the internal time-bomb feature.
+
+For Reid, the deal was a win-win. Scribe didn't fall
+into the public domain, and Unilogic recouped on its
+investment. For Stallman, it was a betrayal of the
+programmer ethos, pure and simple. Instead of honoring
+the notion of share-and-share alike, Reid had inserted
+a way for companies to compel programmers to pay for
+information access.
+
+As the weeks passed and his attempts to track down
+Xerox laser-printer source code hit a brick wall,
+Stallman began to sense a similar money-for-code
+scenario at work. Before Stallman could do or say
+anything about it, however, good news finally trickled
+in via the programmer grapevine. Word had it that a
+scientist at the computer-science department at
+Carnegie Mellon University had just departed a job at
+the Xerox Palo Alto Research Center. Not only had the
+scientist worked on the laser printer in question, but
+according to rumor, he was still working on it as part
+of his research duties at Carnegie Mellon.
+
+Casting aside his initial suspicion, Stallman made a
+firm resolution to seek out the person in question
+during his next visit to the Carnegie Mellon campus.
+
+He didn't have to wait long. Carnegie Mellon also had a
+lab specializing in artificial-intelligence research,
+and within a few months, Stallman had a
+business-related reason to visit the Carnegie Mellon
+campus. During that visit, he made sure to stop by the
+computer-science department. Department employees
+directed him to the office of the faculty member
+leading the Xerox project. When Stallman reached the
+office, he found the professor working there.
+
+In true engineer-to-engineer fashion, the conversation
+was cordial but blunt. After briefly introducing
+himself as a visitor from MIT, Stallman requested a
+copy of the laser-printer source code so that he could
+port it to the PDP-11. To his surprise, the professor
+refused to grant his request.
+
+"He told me that he had promised not to give me a
+copy," Stallman says.
+
+Memory is a funny thing. Twenty years after the fact,
+Stallman's mental history tape is notoriously blank in
+places. Not only does he not remember the motivating
+reason for the trip or even the time of year during
+which he took it, he also has no recollection of the
+professor or doctoral student on the other end of the
+conversation. According to Reid, the person most likely
+to have fielded Stallman's request is Robert Sproull, a
+former Xerox PARC researcher and current director of
+Sun Laboratories, a research division of the
+computer-technology conglomerate Sun Microsystems.
+During the 1970s, Sproull had been the primary
+developer of the laser-printer software in question
+while at Xerox PARC. Around 1980, Sproull took a
+faculty research position at Carnegie Mellon where he
+continued his laser-printer work amid other projects.
+
+"The code that Stallman was asking for was leading-edge
+state-of-the-art code that Sproull had written in the
+year or so before going to Carnegie Mellon," recalls
+Reid. "I suspect that Sproull had been at Carnegie
+Mellon less than a month before this request came in."
+
+When asked directly about the request, however, Sproull
+draws a blank. "I can't make a factual comment," writes
+Sproull via email. "I have absolutely no recollection
+of the incident."
+
+With both participants in the brief conversation
+struggling to recall key details-including whether the
+conversation even took place-it's hard to gauge the
+bluntness of Sproull's refusal, at least as recalled by
+Stallman. In talking to audiences, Stallman has made
+repeated reference to the incident, noting that
+Sproull's unwillingness to hand over the source code
+stemmed from a nondisclosure agreement, a contractual
+agreement between Sproull and the Xerox Corporation
+giving Sproull, or any other signatory, access the
+software source code in exchange for a promise of
+secrecy. Now a standard item of business in the
+software industry, the nondisclosure agreement, or NDA,
+was a novel development at the time, a reflection of
+both the commercial value of the laser printer to Xerox
+and the information needed to run it. "Xerox was at the
+time trying to make a commercial product out of the
+laser printer," recalls Reid. "They would have been
+insane to give away the source code."
+
+For Stallman, however, the NDA was something else
+entirely. It was a refusal on the part of Xerox and
+Sproull, or whomever the person was that turned down
+his source-code request that day, to participate in a
+system that, until then, had encouraged software
+programmers to regard programs as communal resources.
+Like a peasant whose centuries-old irrigation ditch had
+grown suddenly dry, Stallman had followed the ditch to
+its source only to find a brand-spanking-new
+hydroelectric dam bearing the Xerox logo.
+
+For Stallman, the realization that Xerox had compelled
+a fellow programmer to participate in this newfangled
+system of compelled secrecy took a while to sink in. At
+first, all he could focus on was the personal nature of
+the refusal. As a person who felt awkward and out of
+sync in most face-to-face encounters, Stallman's
+attempt to drop in on a fellow programmer unannounced
+had been intended as a demonstration of neighborliness.
+Now that the request had been refused, it felt like a
+major blunder. "I was so angry I couldn't think of a
+way to express it. So I just turned away and walked out
+without another word," Stallman recalls. "I might have
+slammed the door. Who knows? All I remember is wanting
+to get out of there."
+
+Twenty years after the fact, the anger still lingers,
+so much so that Stallman has elevated the event into a
+major turning point. Within the next few months, a
+series of events would befall both Stallman and the AI
+Lab hacker community that would make 30 seconds worth
+of tension in a remote Carnegie Mellon office seem
+trivial by comparison. Nevertheless, when it comes time
+to sort out the events that would transform Stallman
+from a lone hacker, instinctively suspicious of
+centralized authority, to a crusading activist applying
+traditional notions of liberty, equality, and
+fraternity to the world of software development,
+Stallman singles out the Carnegie Mellon encounter for
+special attention.
+
+"It encouraged me to think about something that I'd
+already been thinking about," says Stallman. "I already
+had an idea that software should be shared, but I
+wasn't sure how to think about that. My thoughts
+weren't clear and organized to the point where I could
+express them in a concise fashion to the rest of the world."
+
+Although previous events had raised Stallman's ire, he
+says it wasn't until his Carnegie Mellon encounter that
+he realized the events were beginning to intrude on a
+culture he had long considered sacrosanct. As an elite
+programmer at one of the world's elite institutions,
+Stallman had been perfectly willing to ignore the
+compromises and bargains of his fellow programmers just
+so long as they didn't interfere with his own work.
+Until the arrival of the Xerox laser printer, Stallman
+had been content to look down on the machines and
+programs other computer users grimly tolerated. On the
+rare occasion that such a program breached the AI Lab's
+walls-when the lab replaced its venerable Incompatible
+Time Sharing operating system with a commercial
+variant, the TOPS 20, for example-Stallman and his
+hacker colleagues had been free to rewrite, reshape,
+and rename the software according to personal taste.
+
+Now that the laser printer had insinuated itself within
+the AI Lab's network, however, something had changed.
+The machine worked fine, barring the occasional paper
+jam, but the ability to modify according to personal
+taste had disappeared. From the viewpoint of the entire
+software industry, the printer was a wake-up call.
+Software had become such a valuable asset that
+companies no longer felt the need to publicize source
+code, especially when publication meant giving
+potential competitors a chance to duplicate something
+cheaply. From Stallman's viewpoint, the printer was a
+Trojan Horse. After a decade of failure, privately
+owned software-future hackers would use the term "
+proprietary" software-had gained a foothold inside the
+AI Lab through the sneakiest of methods. It had come
+disguised as a gift.
+
+That Xerox had offered some programmers access to
+additional gifts in exchange for secrecy was also
+galling, but Stallman takes pains to note that, if
+presented with such a quid pro quo bargain at a younger
+age, he just might have taken the Xerox Corporation up
+on its offer. The awkwardness of the Carnegie Mellon
+encounter, however, had a firming effect on Stallman's
+own moral lassitude. Not only did it give him the
+necessary anger to view all future entreaties with
+suspicion, it also forced him to ask the uncomfortable
+question: what if a fellow hacker dropped into
+Stallman's office someday and it suddenly became
+Stallman's job to refuse the hacker's request for
+source code?
+
+"It was my first encounter with a nondisclosure
+agreement, and it immediately taught me that
+nondisclosure agreements have victims," says Stallman,
+firmly. "In this case I was the victim. [My lab and I]
+were victims."
+
+It was a lesson Stallman would carry with him through
+the tumultuous years of the 1980s, a decade during
+which many of his MIT colleagues would depart the AI
+Lab and sign nondisclosure agreements of their own.
+Because most nondisclosure aggreements (NDAs) had
+expiration dates, few hackers who did sign them saw
+little need for personal introspection. Sooner or
+later, they reasoned, the software would become public
+knowledge. In the meantime, promising to keep the
+software secret during its earliest development stages
+was all a part of the compromise deal that allowed
+hackers to work on the best projects. For Stallman,
+however, it was the first step down a slippery slope.
+
+"When somebody invited me to betray all my colleagues
+in that way, I remembered how angry I was when somebody
+else had done that to me and my whole lab," Stallman
+says. "So I said, `Thank you very much for offering me
+this nice software package, but I can't accept it on
+the conditions that you're asking for, so I'm going to
+do without it.'"
+
+As Stallman would quickly learn, refusing such requests
+involved more than personal sacrifice. It involved
+segregating himself from fellow hackers who, though
+sharing a similar distaste for secrecy, tended to
+express that distaste in a more morally flexible
+fashion. It wasn't long before Stallman, increasingly
+an outcast even within the AI Lab, began billing
+himself as "the last true hacker," isolating himself
+further and further from a marketplace dominated by
+proprietary software. Refusing another's request for
+source code, Stallman decided, was not only a betrayal
+of the scientific mission that had nurtured software
+development since the end of World War II, it was a
+violation of the Golden Rule, the baseline moral
+dictate to do unto others as you would have them do
+unto you.
+
+Hence the importance of the laser printer and the
+encounter that resulted from it. Without it, Stallman
+says, his life might have followed a more ordinary
+path, one balancing the riches of a commercial
+programmer with the ultimate frustration of a life
+spent writing invisible software code. There would have
+been no sense of clarity, no urgency to address a
+problem others weren't addressing. Most importantly,
+there would have been no righteous anger, an emotion
+that, as we soon shall see, has propelled Stallman's
+career as surely as any political ideology or ethical belief.
+
+"From that day forward, I decided this was something I
+could never participate in," says Stallman, alluding to
+the practice of trading personal liberty for the sake
+of convenience-Stallman's description of the NDA
+bargain-as well as the overall culture that encouraged
+such ethically suspect deal-making in the first place.
+"I decided never to make other people victims just like
+I had been a victim."
+
+2001: A Hacker's Odyssey
+
+The New York University computer-science department
+sits inside Warren Weaver Hall, a fortress-like
+building located two blocks east of Washington Square
+Park. Industrial-strength air-conditioning vents create
+a surrounding moat of hot air, discouraging loiterers
+and solicitors alike. Visitors who breach the moat
+encounter another formidable barrier, a security
+check-in counter immediately inside the building's
+single entryway.
+
+Beyond the security checkpoint, the atmosphere relaxes
+somewhat. Still, numerous signs scattered throughout
+the first floor preach the dangers of unsecured doors
+and propped-open fire exits. Taken as a whole, the
+signs offer a reminder: even in the relatively tranquil
+confines of pre-September 11, 2001, New York, one can
+never be too careful or too suspicious.
+
+The signs offer an interesting thematic counterpoint to
+the growing number of visitors gathering in the hall's
+interior atrium. A few look like NYU students. Most
+look like shaggy-aired concert-goers milling outside a
+music hall in anticipation of the main act. For one
+brief morning, the masses have taken over Warren Weaver
+Hall, leaving the nearby security attendant with
+nothing better to do but watch Ricki Lake on TV and
+shrug her shoulders toward the nearby auditorium
+whenever visitors ask about "the speech."
+
+Once inside the auditorium, a visitor finds the person
+who has forced this temporary shutdown of building
+security procedures. The person is Richard M. Stallman,
+founder of the GNU Project, original president of the
+Free Software Foundation, winner of the 1990 MacArthur
+Fellowship, winner of the Association of Computing
+Machinery's Grace Murray Hopper Award (also in 1990),
+corecipient of the Takeda Foundation's 2001 Takeda
+Award, and former AI Lab hacker. As announced over a
+host of hacker-related web sites, including the GNU
+Project's own http://www.gnu.org site, Stallman is in
+Manhattan, his former hometown, to deliver a much
+anticipated speech in rebuttal to the Microsoft
+Corporation's recent campaign against the GNU General
+Public License.
+
+The subject of Stallman's speech is the history and
+future of the free software movement. The location is
+significant. Less than a month before, Microsoft senior
+vice president Craig Mundie appeared at the nearby NYU
+Stern School of Business, delivering a speech blasting
+the General Public License, or GPL, a legal device
+originally conceived by Stallman 16 years before. Built
+to counteract the growing wave of software secrecy
+overtaking the computer industry-a wave first noticed
+by Stallman during his 1980 troubles with the Xerox
+laser printer-the GPL has evolved into a central tool
+of the free software community. In simplest terms, the
+GPL locks software programs into a form of communal
+ownership-what today's legal scholars now call the
+"digital commons"-through the legal weight of
+copyright. Once locked, programs remain unremovable.
+Derivative versions must carry the same copyright
+protection-even derivative versions that bear only a
+small snippet of the original source code. For this
+reason, some within the software industry have taken to
+calling the GPL a "viral" license, because it spreads
+itself to every software program it touches. Actually, the GPL's powers are not
+quite that potent.
+According to section 10 of the GNU General Public
+License, Version 2 (1991), the viral nature of the
+license depends heavily on the Free Software
+Foundation's willingness to view a program as a
+derivative work, not to mention the existing license
+the GPL would replace.
+
+If you wish to incorporate parts of the Program into
+other free programs whose distribution conditions are
+different, write to the author to ask for permission.
+For software that is copyrighted by the Free Software
+Foundation, write to the Free Software Foundation; we
+sometimes make exceptions for this. Our decision will
+be guided by the two goals of preserving the free
+status of all derivatives of our free software and of
+promoting the sharing and reuse of software generally.
+
+"To compare something to a virus is very harsh," says
+Stallman. "A spider plant is a more accurate
+comparison; it goes to another place if you actively
+take a cutting."
+
+For more information on the GNU General Public License,
+visit [http://www.gnu.org/copyleft/gpl.html.]
+
+In an information economy increasingly dependent on
+software and increasingly beholden to software
+standards, the GPL has become the proverbial "big
+stick." Even companies that once laughed it off as
+software socialism have come around to recognize the
+benefits. Linux, the Unix-like kernel developed by
+Finnish college student Linus Torvalds in 1991, is
+licensed under the GPL, as are many of the world's most
+popular programming tools: GNU Emacs, the GNU Debugger,
+the GNU C Compiler, etc. Together, these tools form the
+components of a free software operating system
+developed, nurtured, and owned by the worldwide hacker
+community. Instead of viewing this community as a
+threat, high-tech companies like IBM, Hewlett Packard,
+and Sun Microsystems have come to rely upon it, selling
+software applications and services built to ride atop
+the ever-growing free software infrastructure.
+
+They've also come to rely upon it as a strategic weapon
+in the hacker community's perennial war against
+Microsoft, the Redmond, Washington-based company that,
+for better or worse, has dominated the PC-software
+marketplace since the late 1980s. As owner of the
+popular Windows operating system, Microsoft stands to
+lose the most in an industry-wide shift to the GPL
+license. Almost every line of source code in the
+Windows colossus is protected by copyrights reaffirming
+the private nature of the underlying source code or, at
+the very least, reaffirming Microsoft's legal ability
+to treat it as such. From the Microsoft viewpoint,
+incorporating programs protected by the "viral" GPL
+into the Windows colossus would be the software
+equivalent of Superman downing a bottle of Kryptonite
+pills. Rival companies could suddenly copy, modify, and
+sell improved versions of Windows, rendering the
+company's indomitable position as the No. 1 provider of
+consumer-oriented software instantly vulnerable. Hence
+the company's growing concern over the GPL's rate of
+adoption. Hence the recent Mundie speech blasting the
+GPL and the " open source" approach to software
+development and sales. And hence Stallman's decision to
+deliver a public rebuttal to that speech on the same
+campus here today.
+
+20 years is a long time in the software industry.
+Consider this: in 1980, when Richard Stallman was
+cursing the AI Lab's Xerox laser printer, Microsoft,
+the company modern hackers view as the most powerful
+force in the worldwide software industry, was still a
+privately held startup. IBM, the company hackers used
+to regard as the most powerful force in the worldwide
+software industry, had yet to to introduce its first
+personal computer, thereby igniting the current
+low-cost PC market. Many of the technologies we now
+take for granted-the World Wide Web, satellite
+television, 32-bit video-game consoles-didn't even
+exist. The same goes for many of the companies that now
+fill the upper echelons of the corporate establishment,
+companies like AOL, Sun Microsystems, Amazon.com,
+Compaq, and Dell. The list goes on and on.
+
+The fact that the high-technology marketplace has come
+so far in such little time is fuel for both sides of
+the GPL debate. GPL-proponents point to the short
+lifespan of most computer hardware platforms. Facing
+the risk of buying an obsolete product, consumers tend
+to flock to companies with the best long-term survival.
+As a result, the software marketplace has become a
+winner-take-all arena.See Shubha Ghosh, "Revealing the Microsoft Windows
+Source Code," Gigalaw.com (January, 2000).
+http://www.gigalaw.com/articles/ghosh-2000-01-p1.html
+ The current, privately owned software environment,
+GPL-proponents say, leads to monopoly abuse and
+stagnation. Strong companies suck all the oxygen out of
+the marketplace for rival competitors and innovative startups.
+
+GPL-opponents argue just the opposite. Selling software
+is just as risky, if not more risky, than buying
+software, they say. Without the legal guarantees
+provided by private software licenses, not to mention
+the economic prospects of a privately owned "killer
+app" (i.e., a breakthrough technology that launches an
+entirely new market),Killer apps don't have to be proprietary. Witness, of
+course, the legendary Mosaic browser, a program whose
+copyright permits noncommercial derivatives with
+certain restrictions. Still, I think the reader gets
+the point: the software marketplace is like the
+lottery. The bigger the potential payoff, the more
+people want to participate. For a good summary of the
+killer-app phenomenon, see Philip Ben-David, "Whatever
+Happened to the `Killer App'?" e-Commerce News
+(December 7, 2000).
+ companies lose the incentive to participate. Once
+again, the market stagnates and innovation declines. As
+Mundie himself noted in his May 3 address on the same
+campus, the GPL's "viral" nature "poses a threat" to
+any company that relies on the uniqueness of its
+software as a competitive asset. Added Mundie: It also
+fundamentally undermines the independent commercial
+software sector because it effectively makes it
+impossible to distribute software on a basis where
+recipients pay for the product rather than just the
+cost of distributionSee Craig Mundie, "The Commercial Software Model,"
+senior vice president, Microsoft Corp. Excerpted from
+an online transcript of Mundie's May 3,speech to the
+New York University Stern School of Business.
+
+http://www.ecommercetimes.com/perl/story/5893.html 001,
+
+http://www.microsoft.com/presspass/exec/craig/05-03sharedsource.asp
+ The mutual success of GNU/ LinuxThe acronym GNU stands for "GNU's not Unix."
+In another
+portion of the May 29, 2001, NYU speech, Stallman
+summed up the acronym's origin: We hackers always look
+for a funny or naughty name for a program, because
+naming a program is half the fun of writing the
+program. We also had a tradition of recursive acronyms,
+to say that the program that you're writing is similar
+to some existing program . . . I looked for a recursive
+acronym for Something Is Not UNIX. And I tried all 26
+letters and discovered that none of them was a word. I
+decided to make it a contraction. That way I could have
+a three-letter acronym, for Something's Not UNIX. And I
+tried letters, and I came across the word "GNU." That
+was it. Although a fan of puns, Stallman recommends
+that software users pronounce the "g" at the beginning
+of the acronym (i.e., "gah-new"). Not only does this
+avoid confusion with the word "gnu," the name of the
+African antelope, Connochaetes gnou , it also avoids
+confusion with the adjective "new." "We've been working
+on it for 17 years now, so it is not exactly new any
+more," Stallman says. Source: author notes and online
+transcript of "Free Software: Freedom and Cooperation,"
+Richard Stallman's May 29, 2001, speech at New York University.
+
+http://www.gnu.org/events/rms-nyu-2001-transcript.txt
+, the amalgamated operating system built around the
+GPL-protected Linux kernel, and Windows over the last
+10 years reveals the wisdom of both perspectives.
+Nevertheless, the battle for momentum is an important
+one in the software industry. Even powerful vendors
+such as Microsoft rely on the support of third-party
+software developers whose tools, programs, and computer
+games make an underlying software platform such as
+Windows more attractive to the mainstream consumer.
+Citing the rapid evolution of the technology
+marketplace over the last 20 years, not to mention his
+own company's admirable track record during that
+period, Mundie advised listeners to not get too carried
+away by the free software movement's recent momentum:
+Two decades of experience have shown that an economic
+model that protects intellectual property and a
+business model that recoups research and development
+costs can create impressive economic benefits and
+distribute them very broadly. Such admonitions serve as
+the backdrop for Stallman's speech today. Less than a
+month after their utterance, Stallman stands with his
+back to one of the chalk boards at the front of the
+room, edgy to begin.
+
+If the last two decades have brought dramatic changes
+to the software marketplace, they have brought even
+more dramatic changes to Stallman himself. Gone is the
+skinny, clean-shaven hacker who once spent his entire
+days communing with his beloved PDP-10. In his place
+stands a heavy-set middle-aged man with long hair and
+rabbinical beard, a man who now spends the bulk of his
+time writing and answering email, haranguing fellow
+programmers, and giving speeches like the one today.
+Dressed in an aqua-colored T-shirt and brown polyester
+pants, Stallman looks like a desert hermit who just
+stepped out of a Salvation Army dressing room.
+
+The crowd is filled with visitors who share Stallman's
+fashion and grooming tastes. Many come bearing laptop
+computers and cellular modems, all the better to record
+and transmit Stallman's words to a waiting Internet
+audience. The gender ratio is roughly 15 males to 1
+female, and 1 of the 7 or 8 females in the room comes
+in bearing a stuffed penguin, the official Linux
+mascot, while another carries a stuffed teddy bear.
+
+<Graphic file:/home/craigm/books/free_0201.png>
+
+
+Richard Stallman, circa 2000. "I decided I would
+develop a free software operating system or die trying
+. . of old age of course." Photo courtesy of
+http://www.stallman.org.
+
+Agitated, Stallman leaves his post at the front of the
+room and takes a seat in a front-row chair, tapping a
+few commands into an already-opened laptop. For the
+next 10 minutes Stallman is oblivious to the growing
+number of students, professors, and fans circulating in
+front of him at the foot of the auditorium stage.
+
+Before the speech can begin, the baroque rituals of
+academic formality must be observed. Stallman's
+appearance merits not one but two introductions. Mike
+Uretsky, codirector of the Stern School's Center for
+Advanced Technology, provides the first.
+
+"The role of a university is to foster debate and to
+have interesting discussions," Uretsky says. "This
+particular presentation, this seminar falls right into
+that mold. I find the discussion of open source
+particularly interesting."
+
+Before Uretsky can get another sentence out, Stallman
+is on his feet waving him down like a stranded motorist.
+
+"I do free software," Stallman says to rising laughter.
+"Open source is a different movement."
+
+The laughter gives way to applause. The room is stocked
+with Stallman partisans, people who know of his
+reputation for verbal exactitude, not to mention his
+much publicized 1998 falling out with the open source
+software proponents. Most have come to anticipate such
+outbursts the same way radio fans once waited for Jack
+Benny's trademark, "Now cut that out!" phrase during
+each radio program.
+
+Uretsky hastily finishes his introduction and cedes the
+stage to Edmond Schonberg, a professor in the NYU
+computer-science department. As a computer programmer
+and GNU Project contributor, Schonberg knows which
+linguistic land mines to avoid. He deftly summarizes
+Stallman's career from the perspective of a modern-day
+programmer.
+
+"Richard is the perfect example of somebody who, by
+acting locally, started thinking globally [about]
+problems concerning the unavailability of source code,"
+says Schonberg. "He has developed a coherent philosophy
+that has forced all of us to reexamine our ideas of how
+software is produced, of what intellectual property
+means, and of what the software community actually represents."
+
+Schonberg welcomes Stallman to more applause. Stallman
+takes a moment to shut off his laptop, rises out of his
+chair, and takes the stage.
+
+At first, Stallman's address seems more Catskills
+comedy routine than political speech. "I'd like to
+thank Microsoft for providing me the opportunity to be
+on this platform," Stallman wisecracks. "For the past
+few weeks, I have felt like an author whose book was
+fortuitously banned somewhere."
+
+For the uninitiated, Stallman dives into a quick free
+software warm-up analogy. He likens a software program
+to a cooking recipe. Both provide useful step-by-step
+instructions on how to complete a desired task and can
+be easily modified if a user has special desires or
+circumstances. "You don't have to follow a recipe
+exactly," Stallman notes. "You can leave out some
+ingredients. Add some mushrooms, 'cause you like
+mushrooms. Put in less salt because your doctor said
+you should cut down on salt-whatever."
+
+Most importantly, Stallman says, software programs and
+recipes are both easy to share. In giving a recipe to a
+dinner guest, a cook loses little more than time and
+the cost of the paper the recipe was written on.
+Software programs require even less, usually a few
+mouse-clicks and a modicum of electricity. In both
+instances, however, the person giving the information
+gains two things: increased friendship and the ability
+to borrow interesting recipes in return.
+
+"Imagine what it would be like if recipes were packaged
+inside black boxes," Stallman says, shifting gears.
+"You couldn't see what ingredients they're using, let
+alone change them, and imagine if you made a copy for a
+friend. They would call you a pirate and try to put you
+in prison for years. That world would create tremendous
+outrage from all the people who are used to sharing
+recipes. But that is exactly what the world of
+proprietary software is like. A world in which common
+decency towards other people is prohibited or prevented."
+
+With this introductory analogy out of the way, Stallman
+launches into a retelling of the Xerox laser-printer
+episode. Like the recipe analogy, the laser-printer
+story is a useful rhetorical device. With its
+parable-like structure, it dramatizes just how quickly
+things can change in the software world. Drawing
+listeners back to an era before Amazon.com one-click
+shopping, Microsoft Windows, and Oracle databases, it
+asks the listener to examine the notion of software
+ownership free of its current corporate logos.
+
+Stallman delivers the story with all the polish and
+practice of a local district attorney conducting a
+closing argument. When he gets to the part about the
+Carnegie Mellon professor refusing to lend him a copy
+of the printer source code, Stallman pauses.
+
+"He had betrayed us," Stallman says. "But he didn't
+just do it to us. Chances are he did it to you."
+
+On the word "you," Stallman points his index finger
+accusingly at an unsuspecting member of the audience.
+The targeted audience member's eyebrows flinch
+slightly, but Stallman's own eyes have moved on. Slowly
+and deliberately, Stallman picks out a second listener
+to nervous titters from the crowd. "And I think, mostly
+likely, he did it to you, too," he says, pointing at an
+audience member three rows behind the first.
+
+By the time Stallman has a third audience member picked
+out, the titters have given away to general laughter.
+The gesture seems a bit staged, because it is. Still,
+when it comes time to wrap up the Xerox laser-printer
+story, Stallman does so with a showman's flourish. "He
+probably did it to most of the people here in this
+room-except a few, maybe, who weren't born yet in
+1980," Stallman says, drawing more laughs. "[That's]
+because he had promised to refuse to cooperate with
+just about the entire population of the planet Earth."
+
+Stallman lets the comment sink in for a half-beat. "He
+had signed a nondisclosure agreement," Stallman adds.
+
+Richard Matthew Stallman's rise from frustrated
+academic to political leader over the last 20 years
+speaks to many things. It speaks to Stallman's stubborn
+nature and prodigious will. It speaks to the clearly
+articulated vision and values of the free software
+movement Stallman helped build. It speaks to the
+high-quality software programs Stallman has built,
+programs that have cemented Stallman's reputation as a
+programming legend. It speaks to the growing momentum
+of the GPL, a legal innovation that many Stallman
+observers see as his most momentous accomplishment.
+
+Most importantly, it speaks to the changing nature of
+political power in a world increasingly beholden to
+computer technology and the software programs that
+power that technology.
+
+Maybe that's why, even at a time when most
+high-technology stars are on the wane, Stallman's star
+has grown. Since launching the GNU Project in 1984,5
+Stallman has been at turns ignored, satirized,
+vilified, and attacked-both from within and without the
+free software movement. Through it all, the GNU Project
+has managed to meet its milestones, albeit with a few
+notorious delays, and stay relevant in a software
+marketplace several orders of magnitude more complex
+than the one it entered 18 years ago. So too has the
+free software ideology, an ideology meticulously
+groomed by Stallman himself.
